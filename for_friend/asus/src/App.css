@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.logscreen{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+}
+
+.logscreen > * {
+  width: 30%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  padding: 2em;
+}
